@@ -1,4 +1,3 @@
-//script.js
 window.addEventListener("load", inicio, true);
 
 function inicio() {
