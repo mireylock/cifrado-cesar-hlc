@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V1</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="cifrado.js"></script>
+</head>
+<body>
+    <h1>Mensaje Cifrado y Descifrado</h1>
+
+    <!-- Entrada del mensaje original -->
+    <label for="mensaje">Mensaje:</label>
+    <input type="text" id="mensaje" placeholder="Ingresa tu mensaje"/>
+
+    <!-- Entrada del valor del desplazamiento -->
+    <label for="desplazamiento">Desplazamiento:</label>
+    <input type="number" id="desplazamiento" size="4" placeholder="Valor de 0 a 99"/>
+
+    <!-- Botón de cifrado -->
+    <button type="button" id="cifrar">Cifrar</button>
+
+    <!-- Botón de descifrado -->
+    <button type="button" id="descifrar">Descifrar</button>
+
+    <!-- Resultado del cifrado o descifrado -->
+    <p>Resultado:</p>
+    <input type="text" id="mensaje2" readonly/>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

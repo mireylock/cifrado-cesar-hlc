@@ -1,0 +1,54 @@
+/* Resetear márgenes y espaciados predeterminados */
+body, h1, p, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: "Arial, sans-serif";
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Encabezado */
+h1 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+input[type="text"], input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+input[type="number"] {
+    max-width: 50px; /* Máximo 2 posiciones */
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Cambia el fondo al pasar el ratón */
+}
+
+/* Resultado */
+#mensaje2 {
+    border: 2px solid #1a73e8;
+    padding: 8px;
+    background-color: #f0f8ff;
+    width: 100%;
+}
